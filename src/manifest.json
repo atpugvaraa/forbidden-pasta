@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "forbidden pasta",
+  "version": "2026.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://chatgpt.com/*", "*://gemini.google.com/*"],
+      "js": ["content/content.js"]
+    }
+  ]
+}

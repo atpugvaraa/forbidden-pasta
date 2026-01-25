@@ -1,0 +1,23 @@
+{
+  "name": "forbidden-pasta",
+  "module": "index.ts",
+  "type": "module",
+    "scripts": {
+    "dev": "bun run build.ts",
+    "build": ""
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/chrome": "^0.1.36",
+    "autoprefixer": "^10.4.23",
+    "tailwindcss": "^4.1.18"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "preact": "^10.28.2"
+  }
+}
